@@ -243,7 +243,7 @@ namespace config
   boost::uuids::uuid const NETWORK_ID = { {
         0x05, 0x1f, 0x2d, 0x4u, 0x6c, 0x4u, 0x012, 0xb3, 0x15, 0x14, 0x08, 0x2b, 0x6b, 0x13, 0x5c, 0x9b
   } }; // Bender's nightmare
-  std::string const GENESIS_TX = "013c01ff0001ffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1";
+  std::string const GENESIS_TX = "013c01ff0001ffffffffffff01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101c08642bd56d340f281cd11c95ba7fc9714e61e9826e4ce0b7bc2107de13e640e";
   uint32_t const GENESIS_NONCE = 7000;
 
   // Hash domain separators
@@ -259,7 +259,7 @@ namespace config
 
   uint64_t const GOVERNANCE_REWARD_INTERVAL_IN_BLOCKS = 5;
 
-  std::string const GOVERNANCE_WALLET_ADDRESS = "TvziQSEi93chTMViBzw8Y4eerEjmGq2Q6ajekvgyTyqkGcsj97YJDzF8TMnTWdv7NXQ2ZXfeWJPwRAbVHUjbgFcN2AvU35KfX";
+  std::string const GOVERNANCE_WALLET_ADDRESS = "iz5CsufgHSeNrnWgwtqtaicP2EJMoWMhvBFjdrWtW6VDG9LdcNdQgSUNCytQm1uhLTh5vSZBcoAfVBGkheej3c2Z2kzExV5Y5";
 
   namespace testnet
   {
@@ -270,14 +270,14 @@ namespace config
    uint16_t const RPC_DEFAULT_PORT = 28181;
    uint16_t const ZMQ_RPC_DEFAULT_PORT = 28182;
    boost::uuids::uuid const NETWORK_ID = { {
-       0x17 ,0x19, 0xF5, 0x67 , 0x65, 0x03 , 0x42, 0x62, 0x15, 0x21, 0x01, 0x72, 0x14, 0xA3, 0xA5, 0x14
+       0x10 ,0x29, 0xD5, 0x87 , 0x62, 0x43 , 0x48, 0x69, 0x12, 0x56, 0x81, 0x78, 0x54, 0xB3, 0xA9, 0x23
      } }; // Bender's daydream
-   std::string const GENESIS_TX = "013c01ff0001ffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1";
+   std::string const GENESIS_TX = "013c01ff0001ffffffffffff01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121018e3af54bedc44902896721b7dcc1b7b277ceb135027569ec92b9e47563780904";
    uint32_t const GENESIS_NONCE = 7001;
 
    uint64_t const GOVERNANCE_REWARD_INTERVAL_IN_BLOCKS = 5;
 
-    std::string const GOVERNANCE_WALLET_ADDRESS = "XT1mQ4qNhqARHKawpsC4DkCmJxGSiW6EfGej4jssjY7QEzKZgSHmkeuQYHsY3gRhDv4KMt8QQX8TEPBmJQe1SEea38fHATH5C";
+    std::string const GOVERNANCE_WALLET_ADDRESS = "iz5CsufgHSeNrnWgwtqtaicP2EJMoWMhvBFjdrWtW6VDG9LdcNdQgSUNCytQm1uhLTh5vSZBcoAfVBGkheej3c2Z2kzExV5Y5";
   }
 
   namespace stagenet
@@ -289,14 +289,14 @@ namespace config
    uint16_t const RPC_DEFAULT_PORT = 38181;
    uint16_t const ZMQ_RPC_DEFAULT_PORT = 38182;
    boost::uuids::uuid const NETWORK_ID = { {
-       0x14 ,0x20, 0xF3, 0x71 , 0x60, 0x01 , 0x30, 0x62, 0x16, 0x35, 0x02, 0x82, 0x15, 0xA2, 0xA1, 0x14
+       0x12 ,0x43, 0xD3, 0x79 , 0x75, 0x05 , 0x60, 0x68, 0x19, 0x39, 0x07, 0xD4, 0xF5, 0xA9, 0xB1, 0x18
      } }; // Bender's daydream
-   std::string const GENESIS_TX = "013c01ff0001ffffffffffff0302df5d56da0c7d643ddd1ce61901c7bdc5fb1738bfe39fbe69c28a3a7032729c0f2101168d0c4ca86fb55a4cf6a36d31431be1c53a3bd7411bb24e8832410289fa6f3b";
+   std::string const GENESIS_TX = "010a01ff0001ffffffffffff01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121019d76807e28b01cbfec6f8f89b781735ffd8309bbc09f41191808a89507c49cb2";
    uint32_t const GENESIS_NONCE = 7002;
 
    uint64_t const GOVERNANCE_REWARD_INTERVAL_IN_BLOCKS = 5;
 
-  std::string const GOVERNANCE_WALLET_ADDRESS = "";
+  std::string const GOVERNANCE_WALLET_ADDRESS = "iz5CsufgHSeNrnWgwtqtaicP2EJMoWMhvBFjdrWtW6VDG9LdcNdQgSUNCytQm1uhLTh5vSZBcoAfVBGkheej3c2Z2kzExV5Y5";
 
   }
 }
