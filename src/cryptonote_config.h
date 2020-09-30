@@ -243,7 +243,7 @@ namespace config
   boost::uuids::uuid const NETWORK_ID = { {
         0x05, 0x1f, 0x2d, 0x4u, 0x6c, 0x4u, 0x012, 0xb3, 0x15, 0x14, 0x08, 0x2b, 0x6b, 0x13, 0x5c, 0x9b
   } }; // Bender's nightmare
-  std::string const GENESIS_TX = "013c01ff0001ffffffffffff01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101c08642bd56d340f281cd11c95ba7fc9714e61e9826e4ce0b7bc2107de13e640e";
+  std::string const GENESIS_TX = "013c01ff0001ffffffffff7f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101569becc5b6d43b97006ebde6a07d1373043d9d64f69fd7e7f13ca150efa33ed4";
   uint32_t const GENESIS_NONCE = 7000;
 
   // Hash domain separators
@@ -263,16 +263,16 @@ namespace config
 
   namespace testnet
   {
-   uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0xfb;
-   uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0xd1;
-   uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 0xd7;
+   uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0x31;
+   uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0x3d;
+   uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 0x43;
    uint16_t const P2P_DEFAULT_PORT = 28180;
    uint16_t const RPC_DEFAULT_PORT = 28181;
    uint16_t const ZMQ_RPC_DEFAULT_PORT = 28182;
    boost::uuids::uuid const NETWORK_ID = { {
        0x10 ,0x29, 0xD5, 0x87 , 0x62, 0x43 , 0x48, 0x69, 0x12, 0x56, 0x81, 0x78, 0x54, 0xB3, 0xA9, 0x23
      } }; // Bender's daydream
-   std::string const GENESIS_TX = "013c01ff0001ffffffffffff01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121018e3af54bedc44902896721b7dcc1b7b277ceb135027569ec92b9e47563780904";
+   std::string const GENESIS_TX = "013c01ff0001ffffffffff7f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101b73a6206f07ca2de397f362f59025a305afe6fc7754f6485ed44cab918684246";
    uint32_t const GENESIS_NONCE = 7001;
 
    uint64_t const GOVERNANCE_REWARD_INTERVAL_IN_BLOCKS = 5;
@@ -282,16 +282,16 @@ namespace config
 
   namespace stagenet
   {
-   uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0xfb;
-   uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0xd1;
-   uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 0xd7;
+   uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0x2b;
+   uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 0x25;
+   uint64_t const CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX = 0x1f;
    uint16_t const P2P_DEFAULT_PORT = 38180;
    uint16_t const RPC_DEFAULT_PORT = 38181;
    uint16_t const ZMQ_RPC_DEFAULT_PORT = 38182;
    boost::uuids::uuid const NETWORK_ID = { {
        0x12 ,0x43, 0xD3, 0x79 , 0x75, 0x05 , 0x60, 0x68, 0x19, 0x39, 0x07, 0xD4, 0xF5, 0xA9, 0xB1, 0x18
      } }; // Bender's daydream
-   std::string const GENESIS_TX = "010a01ff0001ffffffffffff01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121019d76807e28b01cbfec6f8f89b781735ffd8309bbc09f41191808a89507c49cb2";
+   std::string const GENESIS_TX = "013c01ff0001ffffffffff7f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101dc47b1abdc2a2d7ba30f038f4ab2d836a950d3258f09c8f807073057fdd1ec5e";
    uint32_t const GENESIS_NONCE = 7002;
 
    uint64_t const GOVERNANCE_REWARD_INTERVAL_IN_BLOCKS = 5;
